@@ -11,7 +11,7 @@ interface CounterState {
 
 export const CounterBy = ( { initialValue = 5 }: Props ) => {
 
-    const [{ counter, clicks }, setCounterState] = useState<CounterState>( {
+    const [ { counter, clicks }, setCounterState ] = useState<CounterState>( {
         counter: initialValue,
         clicks: 0
     } );
@@ -25,11 +25,11 @@ export const CounterBy = ( { initialValue = 5 }: Props ) => {
 
     return (
         <>
-            <h1>CounterBy Counter!: {counter}</h1>
-            <h1>CounterBy Clicks!: {clicks}</h1>
+            <h1 className="project-text-blue">CounterBy Counter!: { counter }</h1>
+            <h1 className="project-text-blue">CounterBy Clicks!: { clicks }</h1>
 
-            <button onClick={() => increment( 1 )}>+1</button>
-            <button onClick={() => increment( 5 )}>+5</button>
+            <button onClick={ () => increment( 1 ) }>+1</button>
+            <button onClick={ () => increment( 5 ) }>+5</button>
         </>
     );
 };

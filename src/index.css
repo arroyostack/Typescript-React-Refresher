@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 html,
 body {
-  background-color: grey;
-  color: white;
+  background-color: rgb(30, 30, 30);
+  color: rgb(255, 84, 50);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dela Gothic One', cursive;
   padding: 10px;
+}
+
+button {
+  margin: .2rem ;
+  padding: .5rem;
+}
+
+.project-text-blue{
+  color: #1A73E8;
+}
+.project-text-red{
+  
+  color: #FF6D7F;
+}
+.project-text-light{
+  color: #F1F6FE;
 }
