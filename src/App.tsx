@@ -1,8 +1,11 @@
+import { Counter } from "./foundations/Counter";
+import { CounterBy } from "./foundations/CounterBy";
 
 function App() {
   return (
     <>
-      <h1>React</h1>
+      <Counter />
+      <CounterBy initialValue={10} />
     </>
   );
 }
